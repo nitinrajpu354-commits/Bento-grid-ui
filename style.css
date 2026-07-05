@@ -347,9 +347,11 @@ main {
 }
 
 .center {
-    background-color: #fef9e4;
     grid-area: center;
     border-radius: 20px;
+    background-image: url("/assets/center.png");
+    background-position: center;
+    background-size: cover;
 }
 
 .bottom-right {
