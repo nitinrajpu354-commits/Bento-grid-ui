@@ -116,7 +116,47 @@ main {
 
 .left-center-top {
     grid-area: left-center-top;
+    height: 100%;
+    width: 100%;
     border-radius: 20px;
+    background-color: #f6d400;
+    overflow: hidden;
+}
+
+.left-center-top .img {
+    width: 85px;
+    height: 60px;
+}
+
+.img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.left-center-top .text {
+    width: 80%;
+    padding: 0 15px;
+}
+
+.text p {
+    line-height: 1;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.left-center-top .apps {
+    height: 80px;
+    width: 100%;
+}
+
+.apps img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    scale: 2;
 }
 
 .right-center-top {
