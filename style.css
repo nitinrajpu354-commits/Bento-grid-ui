@@ -69,7 +69,6 @@ main {
     justify-content: space-evenly;
     position: absolute;
     bottom: 5%;
-    overflow: hidden;
 }
 
 .stats .buttons {
@@ -141,7 +140,7 @@ main {
     padding: 0 15px;
 }
 
-.text p {
+.left-center-top .text p {
     line-height: 1;
     text-transform: uppercase;
     font-size: 14px;
@@ -163,7 +162,51 @@ main {
 
 .right-center-top {
     grid-area: right-center-top;
+    background-color: #fcfcfc;
     border-radius: 20px;
+    padding: 15px;
+}
+
+.right-center-top .text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right-center-top .text .top h6{
+    text-transform: uppercase;
+    font-size: 8px;
+}
+
+.right-center-top .text .top h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.right-center-top .text .bottom h6{
+    text-transform: uppercase;
+    font-size: 8px;
+}
+
+.right-center-top .text .bottom h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.right-center-top .image {
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.image img {
+    height: 100%;
+    width: 90%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .right-top {
