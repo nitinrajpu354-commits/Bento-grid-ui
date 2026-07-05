@@ -15,7 +15,7 @@ main {
     height: 100vh;
     width: 100vw;
     padding: 50px 200px;
-    background-color: rgb(20, 16, 16);
+    background: linear-gradient(135deg, #7F5AF0, #2CB67D);
 }
 
 .container {
@@ -210,16 +210,144 @@ main {
 }
 
 .right-top {
+    height: 100%;
+    width: 100%;
+    background-color: #f5f5f5;
     grid-area: right-top;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     border-radius: 20px;
+    padding: 15px;
+}
+
+.right-top .box1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.box1 div {
+    display: flex;
+    gap: 2px;
+}
+
+.box1 div .black {
+    height: 15px;
+    width: 10px;
+    background-color: #000000;
+}
+
+.box1 div .yellow {
+    height: 15px;
+    width: 10px;
+    background-color: #e0aa15;
+}
+
+.box1 h6 {
+    text-transform: uppercase;
+    font-size: 8px;
+}
+
+.right-top .box2 h1{
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 28px;
+}
+
+.right-top .box3{
+    width: 100%;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.box3 div {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.box3 div .icon {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3 div .icon i {
+    color: yellow;
+}
+
+.box3 div p {
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.box3 span {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 500;
 }
 
 .center-left {
+    width: 100%;
+    background-color: #fefefe;
     grid-area: center-left;
     border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.center-left .text {
+    width: 100%;
+}
+
+.center-left > .text > p {
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.center-left .icon-text {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.center-left .icon-text .icon {
+    height: 30px;
+    width: 30px;
+}
+
+.center-left .icon-text .icon img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.center-left .icon-text .text {
+    width: 40%;
+}
+
+.center-left .icon-text .text p {
+    line-height: 1;
+    text-transform: uppercase;
+    font-size: 8px;
 }
 
 .center {
+    background-color: #fef9e4;
     grid-area: center;
     border-radius: 20px;
 }
