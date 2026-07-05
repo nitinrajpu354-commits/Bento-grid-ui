@@ -94,6 +94,10 @@ main {
     justify-content: center;
 }
 
+.icon i {
+    font-size: 10px;
+}
+
 .buttons .text {
     display: flex;
     flex-direction: column;
