@@ -101,6 +101,7 @@ main {
 .buttons .text {
     display: flex;
     flex-direction: column;
+    line-height: 1;
 }
 
 .buttons .text h2 {
@@ -144,19 +145,20 @@ main {
     line-height: 1;
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .left-center-top .apps {
-    height: 80px;
+    height: 70px;
     width: 100%;
+    overflow: hidden;
 }
 
 .apps img {
     height: 100%;
     width: 100%;
     object-fit: contain;
-    scale: 2;
+    scale: 2.2;
 }
 
 .right-center-top {
